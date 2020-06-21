@@ -26,3 +26,22 @@ Console.WriteLine(d);
 Explore more by combining many different operations
   d = (a + b) - 6 * c + (12 * 4) / 3 + 12;
 Console.WriteLine(d);"# 100DaysOfCode-" 
+
+Day 3 - Cont with understandinng WORKING WITH NUMBERS 
+
+ Numerical Data Types
+  Int
+An int is a whole integer value, like 4, 100, or 2349. They’re a good way to count units of things. 
+
+Double and Decimal
+If we need to use a decimal value, we have a few options: float, double, and decimal. These values are useful for anything that requires more precision than a whole number, like measuring the precise location of an object in 3D space.
+
+   Operator Shortcuts
+int apple = 0;
+apple = apple + 1;
+Console.Write(apple); // prints 1
+
+// a shorter way to do the same thing 
+int apple = 0;
+apple++;
+Console.Write(apple); // prints 1
