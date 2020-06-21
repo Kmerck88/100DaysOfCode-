@@ -2,45 +2,26 @@
 
 namespace NumbersInCSharp
 {
-  class Program
-  {
-    static void WorkingWithIntegers()
+    class Program
     {
-      int a = 18;
-      int b = 6;
-      int c = a + b;
-      Console.WriteLine(c);
-
-
-      // subtraction 
-      c = a - b;
-      Console.WriteLine(c);
-
-      // multiplication 
-      c = a * b;
-      Console.WriteLine(c);
-
-      // division 
-
-      c = a / b;
-
-      Console.WriteLine(c);
-    }
+        
+  
     static void Main(string[] args)
     {
-      // WorkingWithIntegers(); 
-      int a = 5;
-      int b = 4;
-      int c = 2;
-      int d = a + b * c;
-      Console.WriteLine(d);
+      // Calculating Net Income 
+      double revenue = 853023.45;
+      double expenses = 438374.11;
+      double netIncome = revenue - expenses;
 
-      d = (a + b) * c;
-      Console.WriteLine(d);
+      Console.WriteLine(netIncome);
 
-      d = (a + b) - 6 * c + (12 * 4) / 3 + 12;
-      Console.WriteLine(d);
+      // Calculating a Break-Even Point
+      double fixedCosts = 912849.30;
+      double salesPrice = 29.99;
+      double variableCostPerUnit = 17.65;
 
+      double breakEvenVolume = fixedCosts / (salesPrice - variableCostPerUnit);
+      Console.WriteLine(breakEvenVolume);
     }
   }
 }
